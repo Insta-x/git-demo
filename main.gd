@@ -2,4 +2,4 @@ extends Node2D
 
 
 func _ready() -> void:
-	print("Ini versi 1")
+	print("Ini versi 2")
