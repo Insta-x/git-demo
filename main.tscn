@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dkjc32nwojvd7"]
+[gd_scene load_steps=3 format=3 uid="uid://dkjc32nwojvd7"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_4m4fi"]
+[ext_resource type="Texture2D" uid="uid://dnhxkiri0d0ri" path="res://icon.svg" id="2_qdfxi"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_4m4fi")
@@ -9,3 +10,6 @@ script = ExtResource("1_4m4fi")
 offset_right = 40.0
 offset_bottom = 23.0
 text = "INI VERSI 2"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_qdfxi")
